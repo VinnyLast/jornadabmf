@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Jornada BMF</title>
+  </head>
+  <body>
+<header>
+    <div class="menu-button" onclick="toggleMenu()">&#9776; MENU</div>
+
+    <div class="logo">Jornada BMF</div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Pesquisar..." />
+      <button><span class="material-icons">search</span></button>
+    </div>
+
+  <div class="menu-links" id="menuLinks">
+    <a href="#">Início</a>
+    <a href="#">Notícias</a>
+    <a href="#">Contato</a>
+  </div>
+</header>
+
+    <div class="container">
+      <div class="noticia">
+        <img src="banner.jpg" alt="Imagem da notícia" />
+        <h1>
+          Pesquisadores descobrem molécula que é melhor que o Ozempic para
+          perder peso
+        </h1>
+        <p>
+          É uma molécula natural que foi descoberta por pesquisadores da
+          faculdade de Stanford, ela promete atuar na perda de peso e redução de
+          apetite, mas sem efeitos colaterais. O que vem sendo o problema da
+          semaglutida (Ozempic), pois pode causar náuseas, constipação, vômito e
+          dores abdominais.
+        </p>
+        <h4>Como descobriram essa molécula?</h4>
+        <p>
+          Eles criaram um programa de computador, nomeado de “Peptide
+          Predictor”, uma espécie de inteligência artificial que consegue mapear
+          peptídeos. Com a ajuda desse programa, eles encontraram um peptídeo
+          promissor que nomearam de BRP. Ele é similar ao GLP-1, hormônio que a
+          semaglutida imita no corpo humano, porém aparenta ser mais eficaz.
+        </p>
+        <h4>Como essa molécula age?</h4>
+        <p>
+          O BRP tem como alvo os neurônios do hipotálamo, região do cérebro que
+          controla o metabolismo e o apetite. O BRP foca seus efeitos no
+          cérebro, e talvez por isso seja capaz de evitar efeitos colaterais.
+          Enquanto o GLP-1 aumenta a atividade das células neuronais em 3 vezes
+          em relação ao grupo controle. O BRP aumentou essa atividade em até 10
+          vezes.
+        </p>
+        <h4>Testes em camundongos e miniporcos</h4>
+        <p>
+          Quando receberam BRP exógeno antes das refeições, eles comeram até 50%
+          menos na hora seguinte em relação ao grupo controle. Eles fizeram um
+          teste com camundongos obesos, foi feito um tratamento de 14 dias
+          administrando BRP. Isso resultou numa perda de 3g nos camundongos
+          testados, enquanto o grupo controle ganhou 3g no mesmo período. Essas
+          3g perdidas foram quase que inteiramente de gordura. Os camundongos
+          também apresentaram aumentos da tolerância a glicose e insulina. Além
+          disso não apresentaram mudanças no comportamento habitual (ingestão de
+          água, movimentação, fezes e níveis de ansiedade), o que indica que não
+          houve colaterais visíveis até então.
+        </p>
+        <h4>Próximos passos</h4>
+        <p>
+          Agora os pesquisadores estão tentando identificar os receptores
+          celulares que se ligam ao BRP e conseguir aumentar a duração dos
+          efeitos no organismo. Em breve, pesquisas podem ser realizadas em
+          humanos para garantir a eficácia. De acordo com a Dra. Katrin
+          Svensson, professora assistente de patologia da Univerdade de
+          Stanford, “Nada que testamos antes se compara à capacidade da
+          semaglutida de reduzir o apetite e o peso corporal. Estamos muito
+          ansiosos para saber se ela é segura e eficaz em humanos.”
+        </p>
+<p class="fonte">
+  O estudo da Dra. Katrin Svensson foi publicado na revista
+  <em>Nature</em>. Para mais informações, acesse:
+  <a
+    href="https://www.nature.com/articles/s41586-025-08683-y"
+    target="_blank"
+  >
+    https://www.nature.com/articles/s41586-025-08683-y
+  </a>
+</p>
+
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Jornada BMF - Trabalho acadêmico</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("menuLinks");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+      }
+    </script>
+  </body>
+</html>
